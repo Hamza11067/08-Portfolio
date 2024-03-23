@@ -16,7 +16,7 @@ function Github() {
         </div>
         <a
           href="https://github.com/hamza11067"
-          className="p-4 bg-orange-400 font-normal text-[20px] rounded-md "
+          className="p-4 bg-orange-400 hover:bg-[#ff8409] font-normal text-[20px] rounded-md "
           target="_blank"
           rel="noreferrer"
         >

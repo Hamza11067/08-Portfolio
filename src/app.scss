@@ -32,7 +32,7 @@ section{
 }
 
 @mixin mobile {
-    @media (max-width: 640px) {
+    @media (max-width: 639px) {
         @content;
     }
 }

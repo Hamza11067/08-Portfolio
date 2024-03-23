@@ -24,7 +24,7 @@ export default function Header() {
               </motion.span>
             </p>
             <motion.div
-              className="md:order-2 hidden sm:block"
+              className="sm:order-2 hidden sm:block"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -42,17 +42,17 @@ export default function Header() {
               transition={{ duration: 1 }}
             >
               <div
-                className="hidden justify-between items-center w-full md:flex md:w-auto order-1"
+                className="hidden justify-between items-center w-full sm:flex sm:w-auto order-1"
                 id="mobile-menu-2"
               >
-                <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 font-semibold">
+                <ul className="flex flex-col mt-4 sm:flex-row sm:space-x-8 sm:mt-0 font-semibold">
                   <li>
                     <NavLink
                       to="/"
                       className={({ isActive }) =>
                         `block py-2 pr-4 pl-3 duration-200 ${
                           isActive ? "text-[#ffa500]" : "text-gray-100"
-                        } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#ffa500] md:p-0`
+                        } border-b border-gray-100 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 hover:text-[#ffa500] sm:p-0`
                       }
                     >
                       Home
@@ -64,7 +64,7 @@ export default function Header() {
                       className={({ isActive }) =>
                         `block py-2 pr-4 pl-3 duration-200 ${
                           isActive ? "text-[#ffa500]" : "text-gray-100"
-                        } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#ffa500] md:p-0`
+                        } border-b border-gray-100 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 hover:text-[#ffa500] sm:p-0`
                       }
                     >
                       Services
@@ -76,7 +76,7 @@ export default function Header() {
                       className={({ isActive }) =>
                         `block py-2 pr-4 pl-3 duration-200 ${
                           isActive ? "text-[#ffa500]" : "text-gray-100"
-                        } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#ffa500] md:p-0`
+                        } border-b border-gray-100 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 hover:text-[#ffa500] sm:p-0`
                       }
                     >
                       Portfolio
@@ -88,7 +88,7 @@ export default function Header() {
                       className={({ isActive }) =>
                         `block py-2 pr-4 pl-3 duration-200 ${
                           isActive ? "text-[#ffa500]" : "text-gray-100"
-                        } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#ffa500] md:p-0`
+                        } border-b border-gray-100 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 hover:text-[#ffa500] sm:p-0`
                       }
                     >
                       Github

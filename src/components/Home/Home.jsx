@@ -116,7 +116,7 @@ function Home() {
             initial="initial"
             animate="animate"
           >
-            <img src="/hero.png" alt="" />
+            <img src="/hero.png" alt="img" />
           </motion.div>
         </div>
       </div>
