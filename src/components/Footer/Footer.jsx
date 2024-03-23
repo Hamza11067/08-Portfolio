@@ -1,8 +1,9 @@
+import "./footer.scss";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0c0c1d] flex justify-center items-center">
+    <footer className="bg-[#0c0c1d] flex justify-center items-center footer">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -69,7 +70,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-400 sm:mx-auto lg:my-8" />
+        <hr className="my-4 border-gray-400 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-400 sm:text-center">
             © 2024

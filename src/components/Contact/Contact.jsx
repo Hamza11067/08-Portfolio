@@ -44,7 +44,7 @@ function Contact() {
 
   return (
     <motion.div
-      className="contact min-h-screen pt-20 md:pt-0"
+      className="contact md:min-h-screen  pt-20 md:pt-0"
       variants={variants}
       initial="initial"
       animate="animate"

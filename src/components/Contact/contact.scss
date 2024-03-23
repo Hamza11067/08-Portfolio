@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
 .contact {
-  height: 100%;
+  max-height: fit-content;
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -13,7 +13,6 @@
     width: 90%;
     margin: auto;
     gap: 100px;
-    padding-bottom: 200px;
   }
 
   @include tablet{
@@ -21,7 +20,6 @@
     width: 90%;
     margin: auto;
     gap: 100px;
-    padding-bottom: 200px;
   }
 
   .text-container {
