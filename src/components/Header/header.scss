@@ -1,0 +1,11 @@
+@import "../../app.scss";
+
+header{
+
+    #nav-item{
+
+        @include mobile{
+            display: none;        
+        }
+    }
+}

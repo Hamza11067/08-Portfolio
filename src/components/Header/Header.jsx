@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import Cursor from "../Cursor/Cursor";
 import Sidebar from "../Sidebar/Sidebar";
+import './header.scss'
 
 export default function Header() {
   return (
@@ -13,7 +14,8 @@ export default function Header() {
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <p
               to="/"
-              className="text-2xl font-bold text-gray-100 hidden sm:block"
+              id="nav-item"
+              className="text-2xl font-bold text-gray-100"
             >
               <motion.span
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -24,7 +26,8 @@ export default function Header() {
               </motion.span>
             </p>
             <motion.div
-              className="sm:order-2 hidden sm:block"
+              id="nav-item"
+              className="sm:order-2 "
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -37,12 +40,13 @@ export default function Header() {
               </Link>
             </motion.div>
             <motion.div
+              id="nav-item"
               initial={{ y: -100, opacity: 0, scale: 0.5 }}
               animate={{ y: 0, opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
             >
               <div
-                className="hidden justify-between items-center w-full sm:flex sm:w-auto order-1"
+                className="justify-between items-center w-full flex sm:w-auto order-1"
                 id="mobile-menu-2"
               >
                 <ul className="flex flex-col mt-4 sm:flex-row sm:space-x-8 sm:mt-0 font-semibold">
